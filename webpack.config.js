@@ -1,8 +1,7 @@
 module.exports = {
     context: __dirname,
     entry: {
-        BlockBindings: "./src/BlockBindings",
-        StringsRegularExpressions: "./src/StringsRegularExpressions"
+        BlockBindings: "./src/BlockBindings"
     },
     output: {
         path: __dirname + '/dist',
