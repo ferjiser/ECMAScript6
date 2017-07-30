@@ -4,7 +4,8 @@ module.exports = {
         BlockBindings: "./src/BlockBindings",
         StringsRegularExpressions: "./src/StringsRegularExpressions",
         Functions: "./src/Functions",
-        Objects: "./src/Objects"
+        Objects: "./src/Objects",
+        Destructuring: "./src/Destructuring"
     },
     output: {
         path: __dirname + '/dist',
