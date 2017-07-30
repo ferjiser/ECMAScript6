@@ -3,7 +3,8 @@ module.exports = {
     entry: {
         BlockBindings: "./src/BlockBindings",
         StringsRegularExpressions: "./src/StringsRegularExpressions",
-        Functions: "./src/Functions"
+        Functions: "./src/Functions",
+        Objects: "./src/Objects"
     },
     output: {
         path: __dirname + '/dist',
