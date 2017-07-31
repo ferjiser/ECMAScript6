@@ -5,7 +5,8 @@ module.exports = {
         StringsRegularExpressions: "./src/StringsRegularExpressions",
         Functions: "./src/Functions",
         Objects: "./src/Objects",
-        Destructuring: "./src/Destructuring"
+        Destructuring: "./src/Destructuring",
+        SetMaps:  "./src/SetMaps"
     },
     output: {
         path: __dirname + '/dist',
