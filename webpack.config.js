@@ -6,7 +6,8 @@ module.exports = {
         Functions: "./src/Functions",
         Objects: "./src/Objects",
         Destructuring: "./src/Destructuring",
-        SetMaps:  "./src/SetMaps"
+        SetMaps:  "./src/SetMaps",
+        ArraysImprovements: "./src/ArraysImprovements"
     },
     output: {
         path: __dirname + '/dist',
