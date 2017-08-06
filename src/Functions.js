@@ -259,7 +259,7 @@ function functionBlockLevelNoStrictES6() {
         doSomething();
     }
     console.log(typeof doSomething); //undefined
-    doSomething();
+    //doSomething();
 }
 
 functionBlockLevelNoStrictES6();

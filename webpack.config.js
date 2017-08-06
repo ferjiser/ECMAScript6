@@ -1,19 +1,18 @@
 module.exports = {
     context: __dirname,
-    entry: {
-        BlockBindings: "./src/BlockBindings",
-        StringsRegularExpressions: "./src/StringsRegularExpressions",
-        Functions: "./src/Functions",
-        Objects: "./src/Objects",
-        Destructuring: "./src/Destructuring",
-        SetMaps: "./src/SetMaps",
-        ArraysImprovements: "./src/ArraysImprovements",
-        Promises: "./src/Promises",
-        Classes: "./src/Classes"
-    },
+    entry: ["./src/BlockBindings",
+        "./src/StringsRegularExpressions",
+        "./src/Functions",
+        "./src/Objects",
+        "./src/Destructuring",
+        "./src/SetMaps",
+        "./src/ArraysImprovements",
+        "./src/Promises",
+        "./src/Classes"
+    ],
     output: {
         path: __dirname + '/dist',
-        filename: '[name].js'
+        filename: 'main.js'
     },
     module: {
         loaders: [

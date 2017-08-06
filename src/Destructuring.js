@@ -145,6 +145,7 @@ destructuring9();
 function destructuring10() {
     let firstColor = 'Black',
         secondColor = 'Purple',
+        lastColor = 'Yellow',
         colors = ["red", "green", "blue"];
     [firstColor, secondColor, lastColor] = colors;
     console.log('firstColor', firstColor); // "red",
